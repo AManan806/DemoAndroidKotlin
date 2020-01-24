@@ -1,0 +1,27 @@
+<resources>
+    <string name="development" translatable="false">https://dev.dryvecars.com/api/customer/</string>
+    <string name="production" translatable="false">https://console.dryvecars.com/api/customer/</string>
+
+    <!--Freejna Server Links Production-->
+    <string name="production_freejna" translatable="false">https://freejna.ae/api/v1/</string>
+    <string name="production_freejna_image" translatable="false">https://freejna.ae/</string>
+    <string name="production_freejna_deepLink" translatable="false">https://freejna.ae/api/</string>
+
+    <!--Freejna Server Links Development-->
+
+    <string name="development_freejna" translatable="false">http://84b5bf86.ngrok.io/api/v1/</string>
+    <string name="development_freejna_image" translatable="false">http://84b5bf86.ngrok.io/</string>
+    <string name="development_freejna_deeplink" translatable="false">http://84b5bf86.ngrok.io/api/</string>
+
+    <!--Freejna Server Links Local-->
+
+    <string name="local_freejna" translatable="false">http://175.10.21.62:8089/api/v1/</string>
+    <string name="local_freejna_image" translatable="false">http://175.10.21.62:8089/</string>
+    <string name="local_freejna_deeplink" translatable="false">http://175.10.21.62:8089/api/</string>
+
+
+    <string name="freejna_stagging" translatable="false">https://freejnastaging.azurewebsites.net/api/v1/</string>
+    <string name="freejna_stagging_image" translatable="false">https://freejnastaging.azurewebsites.net/</string>
+    <string name="freejna_stagging_deeplink" translatable="false">https://freejnastaging.azurewebsites.net/api/</string>
+
+</resources>
