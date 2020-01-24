@@ -1,10 +1,11 @@
-package com.android.kotlindemo
+package com.android.kotlindemo.activites
 
 import android.annotation.SuppressLint
 import android.os.Bundle
 import android.view.View
 import android.widget.EditText
 import androidx.appcompat.app.AppCompatActivity
+import com.android.kotlindemo.R
 import com.android.kotlindemo.checkLogin.LoginAuth
 import com.android.kotlindemo.network.NetworkCall
 import com.android.kotlindemo.network.OnNetworkResponse
@@ -19,7 +20,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 import retrofit2.Call
 import retrofit2.Response
 
-class MainActivity : AppCompatActivity(), View.OnClickListener
+class LoginActivity : AppCompatActivity(), View.OnClickListener
     , OnNetworkResponse {
 
     private var phoneNumber: EditText? = null

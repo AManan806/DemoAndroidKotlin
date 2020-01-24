@@ -1,6 +1,6 @@
 package com.android.kotlindemo.checkLogin
 
-import com.android.kotlindemo.MainActivity
+import com.android.kotlindemo.activites.LoginActivity
 import com.android.kotlindemo.app.MainApplication
 import com.android.kotlindemo.R
 import com.android.kotlindemo.utils.InternetCheck
@@ -8,7 +8,7 @@ import com.android.kotlindemo.utils.Notify
 
 
 object LoginAuth {
-    fun authenticate(phoneNumber: String?, activity: MainActivity): Boolean {
+    fun authenticate(phoneNumber: String?, activity: LoginActivity): Boolean {
         var check = false
         if (phoneNumber?.isEmpty()!! || phoneNumber.length < 6) {
             if (phoneNumber.isEmpty()) {
